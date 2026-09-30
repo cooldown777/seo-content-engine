@@ -9,7 +9,7 @@
     "SKILL": "the link to this free SEO skill"
   },
   "default_keyword": "AUDIT",
-  "carousel_every_days": 2,
+  "carousel_every_days": 1,
   "github_raw_base": "https://raw.githubusercontent.com/cooldown777/seo-content-engine/main",
   "reel_every_days": 1,
   "ai_radar_lookback_days": 7,
@@ -34,6 +34,10 @@
     },
     "notes": "Look from project cmuo07wj10005gz04p7axqf1z '$2,500 a month, versus a claude skill that costs zero' (render cmuo9a56j0009jm04mo6cnbwx). That video had Rick Sanchez as on-screen mascot (voice 'character'); the MCP tools cannot set a mascot, so on 2026-09-30 the owner chose voice rick_sanchez without mascot. captionStyle/background/playbackRate/watermark are classic-project fields, not used by motion graphics builds. Build price: 1500 credits per started minute of narration (Creator plan, pricing 2026-09-17-v3).",
     "script_source": "brainrotshorts",
-    "script_notes": "From the next reel on: generate the VO script with BrainrotShorts script_generate (costs credits, ask the owner first), then check it against CLAUDE.md + reel skill (SEO in hook, no 'blog', no 'my/our', approved keyword + promise, hedged claims, sourced facts) and fix before narration."
+    "script_notes": "From the next reel on: generate the VO script with BrainrotShorts script_generate (costs credits, ask the owner first), then check it against CLAUDE.md + reel skill (SEO in hook, no 'blog', no 'my/our', approved keyword + promise, hedged claims, sourced facts) and fix before narration.",
+    "auto_render": false,
+    "max_renders_per_day": 1,
+    "max_narration_seconds": 55,
+    "cost_note": "Build 1500 credits per started narration minute + 20 voiceover. Keep narration <=55 s so it stays 1 minute (~1520 credits/day)."
   }
 }

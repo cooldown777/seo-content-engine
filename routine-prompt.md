@@ -38,6 +38,23 @@ Today's date decides the folder: queue/<YYYY-MM-DD>/.
 5. REEL (every day)
    Write queue/<date>/reel/script.md and reel/caption.txt following the reel skill.
 
+5b. REEL VIDEO (only if config.json brainrot.auto_render is true; otherwise skip and note
+   "video: off" in review.md)
+   - Max brainrot.max_renders_per_day render per day: if queue/<date>/reel/render.md exists, skip.
+   - If brainrot.script_source is "brainrotshorts", you may polish the VO with script_generate,
+     then re-check it against CLAUDE.md + reel skill before narration.
+   - VO text = the spoken lines of script.md only (no headers, no stage directions), sized to
+     stay under brainrot.max_narration_seconds.
+   - Create a motion-graphics project with brainrot.defaults, generate the narration
+     (approved=true), then motion_graphics_estimate. If the estimate is more than 1 started
+     minute or the credit balance is too low: stop, no build.
+   - Otherwise start the build (approved=true) and poll motion_graphics_project_get every
+     ~2 minutes for up to 70 minutes. Never retry a failed step.
+   - Download the MP4 with curl to queue/<date>/reel/video.mp4 (skip if > 45 MB and put the
+     URL in render.md instead).
+   - Write queue/<date>/reel/render.md: project id, voice, narration seconds, credits spent.
+   - On any failure: skip the video and note it in review.md. The rest of the day still ships.
+
 6. CAROUSEL (only if due)
    Same topic, or a closely related "complete overview" angle. Write deck.json, render with
    `python3 render.py queue/<date>/deck.json`, open 3 slides and fix any overflow, then write
@@ -47,7 +64,8 @@ Today's date decides the folder: queue/<YYYY-MM-DD>/.
    - sources.md: every factual claim (names, dates, numbers, capabilities) with its URL.
      Drop any claim you could not verify.
    - review.md for the human reviewer: topic, pillar, why today, keyword, AI-radar findings
-     (including releases you skipped and why), anything uncertain.
+     (including releases you skipped and why), video (credits spent or why skipped),
+     anything uncertain.
    Keywords only from config.json.
 
 8. SHIP

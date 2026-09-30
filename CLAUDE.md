@@ -47,7 +47,8 @@ as **"what this changes for your SEO"**, never as general AI news.
 
 ## Output per day: `queue/YYYY-MM-DD/`
 - `reel/script.md`, `reel/caption.txt` – reel following `.claude/skills/reel/SKILL.md`
-Carousel files (only on carousel days):
+- `reel/video.mp4`, `reel/render.md` – BrainrotShorts render (only when brainrot.auto_render is on)
+Carousel files (every day while carousel_every_days = 1):
 - `deck.json`   – slides for render.py (no brand block; brand comes from config.json)
 - `slides/`     – rendered PNG + JPG (created by `python3 render.py queue/<date>/deck.json`)
 - `caption.txt` – line 1 = "Comment KEYWORD and I'll send you PROMISE.", then "Slide 1 is…",
