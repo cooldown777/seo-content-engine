@@ -1,0 +1,11 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Category pages are often the pages a store most wants to rank, and they're easy to break without noticing.
+
+Google finds products by following links. Link every product from its category, using real HTML links (an a tag with an href), not only a JavaScript "Load more" button.
+
+Give page 2 and 3 their own URL (?page=2, not #page=2) and keep filter combos nobody searches for out of the crawl.
+
+Finish with a unique title per category and breadcrumbs with BreadcrumbList markup. Save this and check your biggest category today.
+
+#seo #ecommerceseo #shopify #technicalseo #googlesearch #onlinestore

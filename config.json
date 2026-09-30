@@ -12,5 +12,26 @@
   "carousel_every_days": 2,
   "github_raw_base": "https://raw.githubusercontent.com/cooldown777/seo-content-engine/main",
   "reel_every_days": 1,
-  "ai_radar_lookback_days": 7
+  "ai_radar_lookback_days": 7,
+  "brainrot": {
+    "defaults": {
+      "type": "motion_graphics",
+      "preset": "code-editorial",
+      "level": "high",
+      "aspect": "9:16",
+      "captions": true,
+      "cast": "solo",
+      "voice": "character",
+      "hasMascot": true,
+      "directionNote": null,
+      "brand": null,
+      "captionStyle": "tiktok-classic",
+      "captionGrouping": "multi-word",
+      "backgroundColor": "#0b0b12",
+      "backgroundTemplateId": "subwaysurfers_0",
+      "playbackRate": 1,
+      "watermarkEnabled": true
+    },
+    "notes": "From project cmuo07wj10005gz04p7axqf1z '$2,500 a month, versus a claude skill that costs zero' (render cmuo9a56j0009jm04mo6cnbwx, 2026-09-30). voice 'character' = mascot voice set in the web app; the MCP create/update tools reject it, so set voice in the app or pick an id from motion_graphics_option_list. captionStyle/background/playbackRate/watermark are classic-project fields, not used by motion graphics builds."
+  }
 }
