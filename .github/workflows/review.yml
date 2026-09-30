@@ -1,0 +1,46 @@
+name: Send carousel to Telegram for review
+on:
+  push:
+    branches: ["content/**", "claude/**"]
+    paths: ["queue/**/caption.txt", "!queue/example/**"]
+  workflow_dispatch:
+    inputs:
+      folder: { description: "e.g. queue/2026-10-02 (resend an existing carousel)", required: true }
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Find new queue folder(s)
+        id: f
+        env:
+          FOLDER: ${{ github.event.inputs.folder }}
+        run: |
+          if [ -n "$FOLDER" ]; then
+            list="$FOLDER"
+          else
+            list=$(git diff --name-only origin/main...HEAD | grep '^queue/.*/caption.txt$' | xargs -r -n1 dirname | sort -u | tr '\n' ' ' || true)
+          fi
+          # queue/example is a render test fixture, never send it
+          list=$(echo "$list" | tr ' ' '\n' | grep -v '^queue/example/\?$' | tr '\n' ' ' || true)
+          echo "list=$list" >> $GITHUB_OUTPUT
+      - name: Send to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          for d in ${{ steps.f.outputs.list }}; do python3 scripts/send_telegram.py "$d"; done
+      # Keep main current (used-angles.md, queue history) so the next routine run sees today's piece
+      - name: Merge branch into main
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "review-bot"; git config user.email "bot@users.noreply.github.com"
+          git checkout main
+          git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          git push origin main

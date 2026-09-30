@@ -1,8 +1,7 @@
 name: Publish carousel to Instagram
+# Manual only: carousels are posted by hand after Telegram review (see review.yml).
+# To re-enable auto-posting on merge, add back:  push: { branches: [main], paths: ["queue/**/caption.txt", "!queue/example/**"] }
 on:
-  push:
-    branches: [main]
-    paths: ["queue/**/caption.txt", "!queue/example/**"]
   workflow_dispatch:
     inputs:
       folder: { description: "e.g. queue/2026-10-02", required: true }

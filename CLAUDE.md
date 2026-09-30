@@ -34,6 +34,7 @@ before creating anything. All content is written in **English**.
 - `review.md`   – 5-line summary for the human reviewer: topic, pillar, why today, keyword,
                   anything uncertain
 
-## Publishing
-Merging the PR into `main` = approval. The GitHub Action `publish.yml` then posts the carousel
-to Instagram. Claude never publishes itself and never touches secrets.
+## Review & publishing
+Push the finished piece on branch `content/YYYY-MM-DD`. The GitHub Action `review.yml` sends
+slides + caption to the owner on Telegram and merges the branch into `main`. The owner posts
+manually on Instagram. Claude never publishes itself and never touches secrets.

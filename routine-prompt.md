@@ -11,5 +11,6 @@ Daily content routine for @makeseo.ai. Follow CLAUDE.md and the carousel skill e
 5. Create queue/<today>/ with deck.json, render it, visually check 3 slides, then write
    caption.txt, alt.txt, sources.md and review.md.
 6. Append the angle to used-angles.md.
-7. Commit on branch content/<today> and open a PR titled "Carousel <today>: <angle>" with
-   review.md as the PR description and the first 3 slide images linked.
+7. Commit everything (queue/<today>/ incl. slides/*.jpg, used-angles.md) on branch
+   content/<today> with the message "Carousel <today>: <angle>" and push that branch.
+   Do not open a PR. The review.yml Action sends it to Telegram and merges it into main.
