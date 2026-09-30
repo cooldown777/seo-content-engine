@@ -22,7 +22,7 @@
       "captions": true,
       "cast": "solo",
       "voice": "rick_sanchez",
-      "hasMascot": false,
+      "hasMascot": true,
       "directionNote": null,
       "brand": null,
       "captionStyle": "tiktok-classic",
@@ -30,8 +30,9 @@
       "backgroundColor": "#0b0b12",
       "backgroundTemplateId": "subwaysurfers_0",
       "playbackRate": 1,
-      "watermarkEnabled": true
+      "watermarkEnabled": true,
+      "mascot": "rick_sanchez"
     },
-    "notes": "From project cmuo07wj10005gz04p7axqf1z '$2,500 a month, versus a claude skill that costs zero' (render cmuo9a56j0009jm04mo6cnbwx, 2026-09-30). Source used voice 'character' (mascot, set in the web app; the MCP tools reject it). Owner picked rick_sanchez on 2026-09-30 (peter_griffin also OK). captionStyle/background/playbackRate/watermark are classic-project fields, not used by motion graphics builds."
+    "notes": "From project cmuo07wj10005gz04p7axqf1z '$2,500 a month, versus a claude skill that costs zero' (render cmuo9a56j0009jm04mo6cnbwx, 2026-09-30). On-screen mascot = Rick Sanchez (checked in the video frames), voice 'character' = the mascot's own voice. The MCP motion-graphics tools have no mascot field and reject voice 'character': pick the mascot in the web app; via MCP use voice rick_sanchez (voice only, no on-screen Rick). captionStyle/background/playbackRate/watermark are classic-project fields, not used by motion graphics builds."
   }
 }
