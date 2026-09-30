@@ -1,0 +1,95 @@
+{
+  "slides": [
+    {
+      "type": "checkHook",
+      "eyebrow": [
+        "THE ON-PAGE",
+        "SEO CHECKLIST"
+      ],
+      "title": "6 SEO checks<br>before you<br>hit publish",
+      "accentLine": "Skip one and the page may never rank."
+    },
+    {
+      "type": "checkItem",
+      "n": 1,
+      "total": 6,
+      "title": "One page,",
+      "titleAccent": "one keyword",
+      "body": "Pick one main search term per page. Two pages chasing the same term compete against each other in Google.",
+      "action": "Write down the main keyword for the page before you write a single word.",
+      "example": "“Running shoes for flat feet” gets its own page, not a paragraph on “Running shoes”."
+    },
+    {
+      "type": "checkItem",
+      "n": 2,
+      "total": 6,
+      "title": "Keyword first",
+      "titleAccent": "in the title tag",
+      "body": "The title tag is the blue link people see in Google. Longer titles usually get cut off after about 60 characters.",
+      "action": "Put the keyword at the start. Keep the whole title under 60 characters.",
+      "example": "“Running Shoes for Flat Feet: 7 Picks Tested (2026)”"
+    },
+    {
+      "type": "checkItem",
+      "n": 3,
+      "total": 6,
+      "title": "Answer first,",
+      "titleAccent": "explain later",
+      "body": "ChatGPT, Perplexity and Google’s AI Overviews pull short, direct answers. Make readers scroll and they skip you.",
+      "action": "Answer the main question in the first two sentences of the page.",
+      "example": "“The best running shoes for flat feet have firm arch support and a stable heel.”"
+    },
+    {
+      "type": "checkItem",
+      "n": 4,
+      "total": 6,
+      "title": "One H1,",
+      "titleAccent": "clear H2s",
+      "body": "Headings are the outline Google reads first. One H1 for the topic, one H2 for every sub-question.",
+      "action": "Turn the questions people type into Google into your H2 headings.",
+      "example": "H2: “Do flat feet really need stability shoes?”"
+    },
+    {
+      "type": "checkItem",
+      "n": 5,
+      "total": 6,
+      "title": "No page",
+      "titleAccent": "left alone",
+      "body": "A page with no internal links pointing to it is an orphan page. Google may find it late, or never.",
+      "action": "Link to the new page from at least 3 related pages on your site.",
+      "example": "The “Running shoes” category page links to the flat-feet guide."
+    },
+    {
+      "type": "checkItem",
+      "n": 6,
+      "total": 6,
+      "title": "Check it’s",
+      "titleAccent": "actually indexed",
+      "body": "Published doesn’t mean indexed. A page that isn’t in Google’s index can’t rank for anything.",
+      "action": "Google Search Console → URL Inspection → paste the URL → Request indexing.",
+      "example": "“URL is not on Google” means the page isn’t in the index yet."
+    },
+    {
+      "type": "checkSummary",
+      "eyebrow": "BEFORE YOU PUBLISH",
+      "title": "That’s on-page",
+      "titleAccent": "SEO, done.",
+      "items": [
+        "One page, one keyword",
+        "Keyword first in the title tag",
+        "Answer in the first two sentences",
+        "One H1, clear H2s",
+        "3+ internal links to the page",
+        "Indexed in Search Console"
+      ],
+      "seed": "Or let an AI run these checks on every new page."
+    },
+    {
+      "type": "darkCTA",
+      "eyebrow": "BEFORE YOU GO",
+      "keyword": "AUDIT",
+      "body": "and I’ll send you a free SEO audit of your site.",
+      "sub": "Daily SEO and AI search tips."
+    }
+  ]
+}

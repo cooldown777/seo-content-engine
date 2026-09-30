@@ -1,0 +1,45 @@
+name: Publish carousel to Instagram
+on:
+  push:
+    branches: [main]
+    paths: ["queue/**/caption.txt", "!queue/example/**"]
+  workflow_dispatch:
+    inputs:
+      folder: { description: "e.g. queue/2026-10-02", required: true }
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Find new queue folder(s)
+        id: f
+        env:
+          FOLDER: ${{ github.event.inputs.folder }}
+        run: |
+          if [ -n "$FOLDER" ]; then
+            list="$FOLDER"
+          else
+            list=$(git diff --name-only HEAD~1 HEAD | grep '^queue/.*/caption.txt$' | xargs -r -n1 dirname | sort -u | tr '\n' ' ' || true)
+          fi
+          # queue/example is a render test fixture, never publish it
+          list=$(echo "$list" | tr ' ' '\n' | grep -v '^queue/example/\?$' | tr '\n' ' ' || true)
+          echo "list=$list" >> $GITHUB_OUTPUT
+      - name: Wait for raw.githubusercontent cache
+        run: sleep 60
+      - name: Publish
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          for d in ${{ steps.f.outputs.list }}; do python3 scripts/publish_instagram.py "$d"; done
+      - name: Mark as published
+        run: |
+          git config user.name "publish-bot"; git config user.email "bot@users.noreply.github.com"
+          git add queue/*/.published 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "mark published [skip ci]" && git push)

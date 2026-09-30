@@ -1,0 +1,14 @@
+{
+  "brand": {
+    "handle": "@makeseo.ai",
+    "series": "SEO CHECKLIST",
+    "accent": "#A78BFA"
+  },
+  "approved_keywords": {
+    "AUDIT": "a free SEO audit of your site",
+    "SKILL": "the link to this free SEO skill"
+  },
+  "default_keyword": "AUDIT",
+  "carousel_every_days": 2,
+  "github_raw_base": "https://raw.githubusercontent.com/cooldown777/seo-content-engine/main"
+}
