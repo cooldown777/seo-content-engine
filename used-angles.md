@@ -1,5 +1,5 @@
 # Used angles (append one line per piece, newest last)
-Format: YYYY-MM-DD | REEL/CAROUSEL | pillar | angle | keyword
+Format: YYYY-MM-DD | REEL/CAROUSEL | pillar (1–8) | angle | keyword
 
 - (before 2026-09-30) | REEL | 1 | Spotify programmatic SEO (one template, millions of pages) | AUDIT
 - (before 2026-09-30) | REEL | 6 | "SEO in 50 seconds" – how Google finds, understands, ranks | AUDIT

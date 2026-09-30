@@ -49,26 +49,44 @@ def card(folder):
     if alt:
         lines += ["", "🖼 <b>Alt text</b> (Advanced settings → Accessibility)",
                   f"<blockquote expandable>{html.escape(alt)}</blockquote>"]
-    n = len(list((folder / "slides").glob("*.jpg")))
-    lines += ["", f"👇 {n} slides below, then the caption: long-press → <b>Copy</b>"]
+    parts = (["reel"] if (folder / "reel" / "script.md").exists() else []) + \
+            ([f"{len(list((folder / 'slides').glob('*.jpg')))}-slide carousel"] if (folder / "slides").exists() else [])
+    lines += ["", f"👇 Below: {' + '.join(parts)}. Captions come as separate messages: long-press → <b>Copy</b>"]
     return "\n".join(lines)
 
+def label(chat, text):
+    call("sendMessage", chat_id=chat, text=text, parse_mode="HTML")
+
 def main(folder):
-    folder = ROOT / folder
+    folder = ROOT / str(folder).rstrip("/")
     chat = os.environ["TELEGRAM_CHAT_ID"]
+    reel = folder / "reel"
     jpgs = sorted((folder / "slides").glob("*.jpg"))[:10]
-    if len(jpgs) < 2:
-        sys.exit("need 2–10 JPG slides")
+    if not jpgs and not (reel / "script.md").exists():
+        sys.exit(f"nothing to send in {folder}")
 
     call("sendMessage", chat_id=chat, text=card(folder)[:4096], parse_mode="HTML",
          link_preview_options=json.dumps({"is_disabled": True}))
 
-    media = [{"type": "document", "media": f"attach://s{i}"} for i in range(len(jpgs))]
-    files = {f"s{i}": (j.name, j.open("rb"), "image/jpeg") for i, j in enumerate(jpgs)}
-    call("sendMediaGroup", files=files, chat_id=chat, media=json.dumps(media))
+    if (reel / "script.md").exists():
+        video = reel / "video.mp4"
+        if video.exists() and video.stat().st_size < 50_000_000:  # Bot API upload limit
+            with video.open("rb") as v:
+                call("sendVideo", files={"video": ("video.mp4", v, "video/mp4")}, chat_id=chat,
+                     caption="🎬 Reel video", supports_streaming="true")
+        label(chat, "🎬 <b>Reel script</b>")
+        call("sendMessage", chat_id=chat, text=read(reel / "script.md")[:4096])
+        label(chat, "🎬 <b>Reel caption</b> · long-press → Copy")
+        call("sendMessage", chat_id=chat, text=read(reel / "caption.txt")[:4096] or "(no caption)")
 
-    call("sendMessage", chat_id=chat, text=read(folder / "caption.txt")[:4096])
-    print("sent", folder.name, len(jpgs), "slides")
+    if jpgs:
+        label(chat, f"🖼 <b>Carousel</b> · {len(jpgs)} slides")
+        media = [{"type": "document", "media": f"attach://s{i}"} for i in range(len(jpgs))]
+        files = {f"s{i}": (j.name, j.open("rb"), "image/jpeg") for i, j in enumerate(jpgs)}
+        call("sendMediaGroup", files=files, chat_id=chat, media=json.dumps(media))
+        label(chat, "🖼 <b>Carousel caption</b> · long-press → Copy")
+        call("sendMessage", chat_id=chat, text=read(folder / "caption.txt")[:4096])
+    print("sent", folder.name, "reel" if (reel / "script.md").exists() else "", len(jpgs), "slides")
 
 if __name__ == "__main__":
     main(sys.argv[1])

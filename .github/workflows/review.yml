@@ -25,7 +25,7 @@ jobs:
           if [ -n "$FOLDER" ]; then
             list="$FOLDER"
           else
-            list=$(git diff --name-only origin/main...HEAD | grep '^queue/.*/caption.txt$' | xargs -r -n1 dirname | sort -u | tr '\n' ' ' || true)
+            list=$(git diff --name-only origin/main...HEAD | grep -oE '^queue/[0-9]{4}-[0-9]{2}-[0-9]{2}/' | sort -u | tr '\n' ' ' || true)
           fi
           # queue/example is a render test fixture, never send it
           list=$(echo "$list" | tr ' ' '\n' | grep -v '^queue/example/\?$' | tr '\n' ' ' || true)

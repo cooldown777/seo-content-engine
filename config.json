@@ -10,5 +10,7 @@
   },
   "default_keyword": "AUDIT",
   "carousel_every_days": 2,
-  "github_raw_base": "https://raw.githubusercontent.com/cooldown777/seo-content-engine/main"
+  "github_raw_base": "https://raw.githubusercontent.com/cooldown777/seo-content-engine/main",
+  "reel_every_days": 1,
+  "ai_radar_lookback_days": 7
 }
