@@ -21,8 +21,8 @@
       "aspect": "9:16",
       "captions": true,
       "cast": "solo",
-      "voice": "character",
-      "hasMascot": true,
+      "voice": "rick_sanchez",
+      "hasMascot": false,
       "directionNote": null,
       "brand": null,
       "captionStyle": "tiktok-classic",
@@ -32,6 +32,6 @@
       "playbackRate": 1,
       "watermarkEnabled": true
     },
-    "notes": "From project cmuo07wj10005gz04p7axqf1z '$2,500 a month, versus a claude skill that costs zero' (render cmuo9a56j0009jm04mo6cnbwx, 2026-09-30). voice 'character' = mascot voice set in the web app; the MCP create/update tools reject it, so set voice in the app or pick an id from motion_graphics_option_list. captionStyle/background/playbackRate/watermark are classic-project fields, not used by motion graphics builds."
+    "notes": "From project cmuo07wj10005gz04p7axqf1z '$2,500 a month, versus a claude skill that costs zero' (render cmuo9a56j0009jm04mo6cnbwx, 2026-09-30). Source used voice 'character' (mascot, set in the web app; the MCP tools reject it). Owner picked rick_sanchez on 2026-09-30 (peter_griffin also OK). captionStyle/background/playbackRate/watermark are classic-project fields, not used by motion graphics builds."
   }
 }
