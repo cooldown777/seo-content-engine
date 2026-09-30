@@ -2,3 +2,4 @@
 Format: YYYY-MM-DD | lesson | source (inbox file)
 
 2026-09-30 | Reel scripts: owner wants BrainrotShorts to write them from the next reel on (script_generate), still checked against CLAUDE.md rules before narration | session chat
+2026-09-30 | Owner approved daily auto video (brainrot.auto_render on, ~1520 credits/day, max 1 render/day) | inbox 2026-09-30.md msg 78
