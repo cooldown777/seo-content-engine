@@ -7,3 +7,4 @@ Format: YYYY-MM-DD | REEL/CAROUSEL | pillar | angle | keyword
 - (before 2026-09-30) | REEL | 3 | Rank #1 and still lose to ChatGPT (GEO, answer-first) | AUDIT
 - (before 2026-09-30) | REEL | 7 | $2,500/month SEO agency vs. free SEO skill | SKILL
 - 2026-09-30 | CAROUSEL | 5 | 6 on-page SEO checks before you hit publish | AUDIT
+- 2026-09-30 | CAROUSEL | 4 | 6 SEO fixes for category pages (links, pagination, filters, titles, breadcrumbs) | AUDIT

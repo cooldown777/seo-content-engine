@@ -1,0 +1,15 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Slide 1 is the checklist. Then one fix per slide, each with an action and a real example.
+
+Category pages are often the pages a store most wants to rank, and they're easy to break without noticing. Google finds products by following links, so a category page that only links to the bestsellers can leave the rest of the catalogue undiscovered.
+
+Those links need to be real HTML links, an a tag with an href. A JavaScript-only "Load more" button can hide products from Google. Keep the button if you like it, but add plain page links underneath.
+
+Pagination: page 2, 3 and 4 are separate pages to Google. Give each its own URL (?page=2, not #page=2) and its own canonical, instead of pointing everything at page 1.
+
+Filters for size, colour and price can create thousands of near-identical URLs. Block the combinations nobody searches for in robots.txt and return a 404 when a filter has no results.
+
+Finish with a unique, descriptive title per category and a breadcrumb trail with BreadcrumbList markup. Save this and check your biggest category today.
+
+#seo #ecommerceseo #shopify #technicalseo #googlesearch #onlinestore #searchengineoptimization

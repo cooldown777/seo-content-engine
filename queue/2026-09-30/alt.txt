@@ -1,0 +1,1 @@
+A nine-slide dark carousel listing six SEO fixes for e-commerce category pages: link to every product, use real HTML links, give each paginated page its own URL, control filter URLs, write unique titles, and add breadcrumbs with markup.

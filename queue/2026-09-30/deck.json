@@ -1,0 +1,95 @@
+{
+  "slides": [
+    {
+      "type": "checkHook",
+      "eyebrow": [
+        "THE CATEGORY PAGE",
+        "SEO CHECKLIST"
+      ],
+      "title": "6 SEO fixes<br>for category<br>pages",
+      "accentLine": "Most stores skip at least one."
+    },
+    {
+      "type": "checkItem",
+      "n": 1,
+      "total": 6,
+      "title": "Link to every",
+      "titleAccent": "single product",
+      "body": "Google finds products by following links. If a category page skips some, Googlebot might never find them.",
+      "action": "Make sure each category page (incl. page 2, 3…) links to all of its products.",
+      "example": "“Running shoes” links to all 48 shoes, not just the 12 bestsellers."
+    },
+    {
+      "type": "checkItem",
+      "n": 2,
+      "total": 6,
+      "title": "Real links,",
+      "titleAccent": "not buttons",
+      "body": "Google can only follow real HTML links: an a tag with an href. A JavaScript-only “Load more” can hide products.",
+      "action": "Right-click a product link → Inspect. It should be an a tag with href=\"/product-url\".",
+      "example": "Keep the “Load more” button, but add plain page links underneath it."
+    },
+    {
+      "type": "checkItem",
+      "n": 3,
+      "total": 6,
+      "title": "Every page gets",
+      "titleAccent": "its own URL",
+      "body": "Google treats page 2, 3 and 4 as separate pages. It ignores anything after a #, so #page=2 isn’t a page.",
+      "action": "Use ?page=2 style URLs. Don’t set page 1 as the canonical for every page.",
+      "example": "/running-shoes?page=2 has a canonical pointing to itself."
+    },
+    {
+      "type": "checkItem",
+      "n": 4,
+      "total": 6,
+      "title": "Tame your",
+      "titleAccent": "filters",
+      "body": "Size, colour and price filters can create thousands of near-identical URLs that waste Google’s crawl time.",
+      "action": "Block filter combos nobody searches for in robots.txt. Return a 404 for empty results.",
+      "example": "Crawl /running-shoes/women. Block sorted or stacked filter URLs like ?sort=price."
+    },
+    {
+      "type": "checkItem",
+      "n": 5,
+      "total": 6,
+      "title": "A unique title",
+      "titleAccent": "per category",
+      "body": "Duplicate or vague titles are one reason Google may rewrite the blue link it shows for your page.",
+      "action": "Put the category name first and make every category title different.",
+      "example": "“Women’s Trail Running Shoes | Store Name”, not “Shop – Page 1”."
+    },
+    {
+      "type": "checkItem",
+      "n": 6,
+      "total": 6,
+      "title": "Breadcrumbs",
+      "titleAccent": "with markup",
+      "body": "Breadcrumbs show Google how your categories connect. BreadcrumbList markup can show that path in results.",
+      "action": "Add a visible breadcrumb trail plus BreadcrumbList structured data.",
+      "example": "Home › Running › Trail running shoes"
+    },
+    {
+      "type": "checkSummary",
+      "eyebrow": "CATEGORY PAGES",
+      "title": "That’s category",
+      "titleAccent": "SEO, done.",
+      "items": [
+        "Link to every product",
+        "Real HTML links, not buttons",
+        "One URL per page, own canonical",
+        "Filters kept out of the crawl",
+        "A unique title per category",
+        "Breadcrumbs + BreadcrumbList"
+      ],
+      "seed": "Or let an AI check every category page for you."
+    },
+    {
+      "type": "darkCTA",
+      "eyebrow": "BEFORE YOU GO",
+      "keyword": "AUDIT",
+      "body": "and I’ll send you a free SEO audit of your site.",
+      "sub": "Daily SEO and AI search tips."
+    }
+  ]
+}
