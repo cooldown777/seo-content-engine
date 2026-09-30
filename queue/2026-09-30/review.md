@@ -2,4 +2,4 @@
 - **Pillar:** 4 – E-commerce SEO (never used yet; 2 was the other unused pillar).
 - **Why today:** evergreen how-to; primary Google sources were blocked by the network proxy, so no news item could be verified (September 2026 spam update and Content API for Shopping sunset seen only in secondary sources, not used).
 - **Keyword:** AUDIT → "a free SEO audit of your site" (default).
-- **Uncertain:** Google docs were verified through search snippets, not a direct fetch. Hook accentLine "Most stores skip at least one." is an opinion, not a stat – soften if you prefer. TEST RUN: cadence check skipped; same date as the earlier on-page carousel entry.
+- **Uncertain:** Google docs were verified through search snippets, not a direct fetch. Hook line hedged to "Many stores skip at least one." (rule 4). TEST RUN: cadence check skipped; same date as the earlier on-page carousel entry.

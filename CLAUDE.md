@@ -31,8 +31,8 @@ before creating anything. All content is written in **English**.
                   3–6 short prose paragraphs, 5–8 hashtags. Max 2,200 characters.
 - `alt.txt`     – one sentence
 - `sources.md`  – every factual claim with URL
-- `review.md`   – 5-line summary for the human reviewer: topic, pillar, why today, keyword,
-                  anything uncertain
+- `review.md`   – 5 lines for the human reviewer (read on a phone in Telegram), each
+                  `- **Key:** value`, max ~120 chars: Topic, Pillar, Why today, Keyword, Uncertain
 
 ## Review & publishing
 Push the finished piece on branch `content/YYYY-MM-DD`. The GitHub Action `review.yml` sends

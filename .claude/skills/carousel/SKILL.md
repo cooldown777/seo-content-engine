@@ -13,6 +13,10 @@ description: Turn one SEO topic into a rendered Instagram carousel (deck.json + 
 | checkSummary | eyebrow, title, titleAccent, items [= one short line per point, ≤34 chars], seed (optional 1 line, may hint "an AI can do this") | second to last |
 | darkCTA | eyebrow "BEFORE YOU GO", keyword, body "and I'll send you <promise>.", sub | always last |
 
+Slide text is inserted as raw HTML: never write `<` or `>` (e.g. say "an a tag with an href"),
+only `<br>` in checkHook titles. Every slide line counts as copy for CLAUDE.md rule 4: hedge
+claims about "most stores/sites" ("many", "often", "can"), including the hook's accentLine.
+
 Length limits matter: longer text overflows the layout. After rendering, open 2–3 PNGs and
 check nothing overlaps or runs off the canvas; shorten and re-render if it does.
 
