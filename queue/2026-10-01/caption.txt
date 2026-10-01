@@ -1,0 +1,15 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Slide 1 is the overview. Then one SEO task per slide, each with an action and a real example.
+
+Anthropic released Claude Sonnet 5.5 on September 28. Anthropic says it's 30%+ faster than Sonnet 5, can cost up to 30% less per task, and is strongest at well-scoped everyday tasks and spreadsheets. That makes it a good fit for repeatable SEO jobs.
+
+Start with your Google Search Console Performance report. Export it and ask Claude which pages have many impressions but few clicks. Google already shows those pages; people often scroll past.
+
+Next, rewrite the weak title tags. Google asks for descriptive, concise titles and warns against boilerplate. Do the same for meta descriptions: identical descriptions on every page aren't helpful, so start with your homepage and most popular pages.
+
+Then use a list of your URLs and titles to find internal-link ideas, and draft JSON-LD structured data that only describes what's visible on the page. Test it in Google's Rich Results Test.
+
+Always review what an AI writes before it goes live. Save this and try task 1 today.
+
+#seo #claude #anthropic #aiseo #searchconsole #technicalseo #structureddata

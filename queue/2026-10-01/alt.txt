@@ -1,0 +1,1 @@
+An eight-slide dark carousel listing five SEO tasks to try with Claude Sonnet 5.5: find high-impression, low-CTR pages in Search Console, rewrite weak title tags, write unique meta descriptions, get internal-link suggestions, and draft JSON-LD to check in the Rich Results Test.

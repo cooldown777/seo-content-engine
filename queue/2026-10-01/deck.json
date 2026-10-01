@@ -1,0 +1,84 @@
+{
+  "slides": [
+    {
+      "type": "checkHook",
+      "eyebrow": [
+        "CLAUDE SONNET 5.5",
+        "SEO CHECKLIST"
+      ],
+      "title": "5 SEO tasks<br>to try with<br>Sonnet 5.5",
+      "accentLine": "Released by Anthropic on Sep 28."
+    },
+    {
+      "type": "checkItem",
+      "n": 1,
+      "total": 5,
+      "title": "Find pages",
+      "titleAccent": "people skip",
+      "body": "Pages with many impressions but few clicks are already shown by Google. People often just scroll past them.",
+      "action": "Export the Search Console Performance report and ask Claude to sort pages by low CTR.",
+      "example": "“Which pages have 1,000+ impressions but a CTR under 1%?”"
+    },
+    {
+      "type": "checkItem",
+      "n": 2,
+      "total": 5,
+      "title": "Rewrite weak",
+      "titleAccent": "title tags",
+      "body": "Google asks for descriptive, concise titles and warns against boilerplate. Vague titles can get rewritten.",
+      "action": "Paste each low-CTR page’s title and top query. Ask for 3 unique options per page.",
+      "example": "“Shop – Page 1” becomes “Women’s Trail Running Shoes | Store Name”."
+    },
+    {
+      "type": "checkItem",
+      "n": 3,
+      "total": 5,
+      "title": "Fix copy-paste",
+      "titleAccent": "descriptions",
+      "body": "Google says identical meta descriptions on every page aren’t helpful. It may use yours for the snippet.",
+      "action": "Start with the homepage and the most popular pages. One accurate description each.",
+      "example": "Ask: “Write a description that says what this exact page offers.”"
+    },
+    {
+      "type": "checkItem",
+      "n": 4,
+      "total": 5,
+      "title": "Suggest",
+      "titleAccent": "internal links",
+      "body": "Google finds pages through links. A page that nothing links to can be hard to discover.",
+      "action": "Give Claude a list of your URLs and titles. Ask which pages should link to one target page.",
+      "example": "Five guides about running all link to the “Trail running shoes” category."
+    },
+    {
+      "type": "checkItem",
+      "n": 5,
+      "total": 5,
+      "title": "Draft schema,",
+      "titleAccent": "then test it",
+      "body": "Google recommends JSON-LD for structured data as the easiest format to maintain.",
+      "action": "Ask for JSON-LD matching only what’s visible on the page. Check it in the Rich Results Test.",
+      "example": "BreadcrumbList for Home › Running › Trail running shoes."
+    },
+    {
+      "type": "checkSummary",
+      "eyebrow": "SONNET 5.5 FOR SEO",
+      "title": "One model,",
+      "titleAccent": "five SEO tasks.",
+      "items": [
+        "High-impression, low-CTR pages",
+        "Rewrite weak title tags",
+        "Unique meta descriptions",
+        "Internal-link suggestions",
+        "JSON-LD + Rich Results Test"
+      ],
+      "seed": "Always review what an AI writes before it goes live."
+    },
+    {
+      "type": "darkCTA",
+      "eyebrow": "BEFORE YOU GO",
+      "keyword": "AUDIT",
+      "body": "and I’ll send you a free SEO audit of your site.",
+      "sub": "Daily SEO and AI search tips."
+    }
+  ]
+}

@@ -9,3 +9,5 @@ Format: YYYY-MM-DD | REEL/CAROUSEL | pillar (1–8) | angle | keyword
 - 2026-09-30 | CAROUSEL | 5 | 6 on-page SEO checks before you hit publish | AUDIT
 - 2026-09-30 | CAROUSEL | 4 | 6 SEO fixes for category pages (links, pagination, filters, titles, breadcrumbs) | AUDIT
 - 2026-09-30 | REEL | 4 | 6 SEO fixes for category pages (reel version of carousel) | AUDIT
+- 2026-10-01 | REEL | 8 | Claude Sonnet 5.5 just dropped – find high-impression/low-CTR pages in Search Console + rewrite titles | AUDIT
+- 2026-10-01 | CAROUSEL | 8 | 5 SEO tasks to try with Claude Sonnet 5.5 (low-CTR pages, titles, meta descriptions, internal links, JSON-LD) | AUDIT

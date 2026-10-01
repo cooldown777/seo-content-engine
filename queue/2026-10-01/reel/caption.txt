@@ -1,0 +1,11 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Anthropic released Claude Sonnet 5.5 on September 28. Anthropic says it runs 30%+ faster than Sonnet 5 and can cost up to 30% less per task.
+
+Here's one SEO task to try with it today: export the Performance report from Google Search Console and ask Claude which pages get lots of impressions but few clicks.
+
+Those pages already show up in Google. A vague title tag can be one reason people scroll past. Ask for 3 unique, descriptive title ideas per page, pick one, and check the CTR again in a few weeks.
+
+Always read what an AI writes before it goes live.
+
+#seo #claude #anthropic #searchconsole #aiseo #titletags #googlesearch

@@ -1,0 +1,13 @@
+- **Topic:** Claude Sonnet 5.5 (Anthropic, Sep 28) → 5 SEO tasks; reel = low-CTR pages + title rewrite
+- **Pillar:** 8 – AI radar (first pillar-8 piece; 0 in last 7 days, limit 2)
+- **Why today:** new Anthropic model in the 7-day window, verified on anthropic.com
+- **Keyword:** AUDIT → "a free SEO audit of your site" (reel + carousel)
+- **AI radar used:** Claude Sonnet 5.5, 2026-09-28, anthropic.com/claude-sonnet-5-5
+- **AI radar skipped:** Opus 5.5 (Sep 22, outside 7 days); GPT-6.1 Sol (Sep 29, Codex/work, no primary fetch)
+- **AI radar skipped:** Gemini 3.8 Flash, Perplexity, Jev: secondary sources only, not verified
+- **SEO news:** Sept 2026 spam update (from Sep 24) + Search Console multimodal filter: candidates for a later day
+- **Video:** BrainrotShorts project cmup0oz83009cjm04rul9o5fd, 40.8 s VO, 1,500 credits (see reel/render.md)
+- **Script:** written in-house, not via script_generate (saves credits, keeps every claim sourced)
+- **Uncertain:** "30%+ faster / up to 30% less" are Anthropic's own figures, credited in VO + caption
+- **Uncertain:** free-plan access not stated in the source, so not claimed
+- **Uncertain:** research/accounts/ is empty (no creator scans yet); patterns.md missing
