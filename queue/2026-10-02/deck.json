@@ -1,0 +1,71 @@
+{
+  "slides": [
+    {
+      "type": "checkHook",
+      "eyebrow": ["INTERNAL LINKING", "SEO CHECKLIST"],
+      "title": "5 internal<br>link SEO<br>checks",
+      "accentLine": "A page nothing links to can be hard for Google to find."
+    },
+    {
+      "type": "checkItem", "n": 1, "total": 5,
+      "title": "Find pages",
+      "titleAccent": "with no links",
+      "body": "Google says it primarily finds pages through links from pages it already crawled.",
+      "action": "Open Search Console → Links → Top linked pages (internal). Find your key pages.",
+      "example": "A new product page that no category page or guide links to yet."
+    },
+    {
+      "type": "checkItem", "n": 2, "total": 5,
+      "title": "Use real",
+      "titleAccent": "href links",
+      "body": "Google can generally only crawl a link that is an a element with an href attribute.",
+      "action": "Check menus, filters and buttons in the page source for an a tag with an href.",
+      "example": "A “View all” button that only works with a JavaScript click."
+    },
+    {
+      "type": "checkItem", "n": 3, "total": 5,
+      "title": "Write clear",
+      "titleAccent": "anchor text",
+      "body": "Google wants anchor text that is descriptive, reasonably concise and relevant.",
+      "action": "Read only the anchor text. If it makes no sense on its own, rewrite it.",
+      "example": "“Click here” becomes “trail running shoes for wide feet”."
+    },
+    {
+      "type": "checkItem", "n": 4, "total": 5,
+      "title": "Link in",
+      "titleAccent": "context",
+      "body": "Google suggests linking to pages that help readers understand the page they are on.",
+      "action": "For each key page, find 2–3 related pages and add one link inside their text.",
+      "example": "A sizing guide links to the matching category page in its first paragraph."
+    },
+    {
+      "type": "checkItem", "n": 5, "total": 5,
+      "title": "Don't chain",
+      "titleAccent": "links together",
+      "body": "Google advises against links right next to each other: readers can't tell them apart.",
+      "action": "Spread links through the copy, with words around each one.",
+      "example": "Not three links in a row, but one link per sentence."
+    },
+    {
+      "type": "checkSummary",
+      "eyebrow": "INTERNAL LINKING",
+      "title": "Five checks,",
+      "titleAccent": "one afternoon.",
+      "items": [
+        "Find pages with few links",
+        "Use real a + href links",
+        "Descriptive anchor text",
+        "2–3 links in context",
+        "No chained links"
+      ],
+      "seed": "An AI can suggest link ideas from a list of your URLs."
+    },
+    {
+      "type": "darkCTA",
+      "eyebrow": "BEFORE YOU GO",
+      "keyword": "AUDIT",
+      "body": "and I’ll send you a free SEO audit of your site.",
+      "sub": "Daily SEO and AI search tips."
+    }
+  ]
+}

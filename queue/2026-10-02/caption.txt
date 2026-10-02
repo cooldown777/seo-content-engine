@@ -1,0 +1,15 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Slide 1 is the overview. Then one internal-linking SEO check per slide, each with an action and an example.
+
+Google says it primarily finds pages through links from pages it already crawled. Its advice: every page you care about should have a link from at least one other page on your site. A new product page that no category or guide links to can be hard to find.
+
+Start in Google Search Console: Links → Top linked pages (internal). Click a key page to see which pages link to it.
+
+Then check how the links are built. Google can generally only crawl a link that is an a element with an href attribute, so look at menus, filters and "View all" buttons.
+
+Make the anchor text descriptive. Google lists "click here" and "read more" as weak examples. Read only the link text: does it make sense on its own?
+
+Finally, link in context from 2–3 related pages, and don't chain links right next to each other. Save this for your next site check.
+
+#seo #internallinks #searchconsole #technicalseo #onpageseo #ecommerceseo #seotips

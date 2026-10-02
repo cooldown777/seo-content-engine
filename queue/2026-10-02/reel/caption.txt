@@ -1,0 +1,11 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Your best SEO page might have almost no links pointing to it. Google says it mainly finds pages through links from pages it already crawled, so a page nothing links to can be hard to find.
+
+Google's own advice: every page you care about should have a link from at least one other page on your site.
+
+The 3-step check: open Search Console → Links → Top linked pages (internal). Click your key pages to see who links to them. Add 2–3 links in context from related pages, with anchor text that makes sense on its own. Not "click here".
+
+Save this and run step 1 today.
+
+#seo #internallinks #searchconsole #onpageseo #shopifyseo #seotips #googlesearch

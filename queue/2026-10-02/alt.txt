@@ -1,0 +1,1 @@
+Carousel with 5 internal-linking SEO checks: find pages with few links in Search Console, use real href links, write descriptive anchor text, link in context and avoid chained links.

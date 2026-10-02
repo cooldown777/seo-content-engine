@@ -1,0 +1,11 @@
+- **Topic:** Internal linking – find pages with few links (reel) + 5 internal-link SEO checks (carousel)
+- **Pillar:** 2 – Internal linking (never used before, least recent pillar)
+- **Why today:** pillar-8 weekly limit reached (2 pieces on Oct 1); no new Search Central guidance this week
+- **Keyword:** AUDIT → "a free SEO audit of your site" (reel + carousel)
+- **AI radar:** skipped – weekly limit (2/2 used on 2026-10-01, Sonnet 5.5)
+- **AI radar seen:** anthropic.com: nothing new for SEO since Sonnet 5.5 (Oct 1 = Barclays customer story)
+- **AI radar seen:** openai.com/news blocked (403); Google/Perplexity not checked further due to limit
+- **SEO news:** Sept 2026 spam update started Sep 24 (Status Dashboard), still ongoing – no angle yet
+- **Video:** BrainrotShorts project cmuqftl9i000jjn04te9nwpkv, 38.7 s VO, 1,500 credits (see reel/render.md)
+- **Script:** written in-house (no script_generate), every claim from Google docs
+- **Uncertain:** research/accounts/ still empty (no creator scans, no patterns.md)
