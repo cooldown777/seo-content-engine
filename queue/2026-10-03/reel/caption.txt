@@ -1,0 +1,11 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Google just added a new SEO filter to Search Console. Since September 24, 2026, the search type "Web: multimodal" shows traffic from people who searched with an image instead of typing.
+
+That covers Google Lens, Circle to Search on Android, image uploads to Google Search and "Search this image" in Chrome.
+
+The 3-step check: Performance → search type "Web: multimodal" → Pages. On those pages, write alt text that describes the photo (no keyword lists) and use real img tags. Google says it doesn't index CSS images.
+
+Empty report? Google says the data appears once your site gets this kind of traffic. Save this and check again in a few weeks.
+
+#seo #searchconsole #googlelens #imageseo #ecommerceseo #seotips #googlesearch

@@ -1,0 +1,15 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Slide 1 is the overview. Then one photo-search SEO check per slide, each with an action and an example.
+
+On September 24, 2026, Google added a new search type to Search Console: "Web: multimodal". It covers searches made with an image instead of typed words: Google Lens, Circle to Search on Android, image uploads to Google Search and "Search this image" in Chrome.
+
+Start in Performance: set the search type to Web: multimodal and open the Pages tab. The same filter also works in the Generative AI performance report.
+
+Then look at the images on those pages. Google calls alt text the most important image metadata, so describe the photo in a few specific words and skip keyword lists.
+
+Use real img tags for key photos, because Google says it doesn't index CSS images. Descriptive filenames and nearby text can give extra context.
+
+No data yet? Google says the metrics appear once your site gets this kind of traffic. Save this and check again in a few weeks.
+
+#seo #searchconsole #imageseo #googlelens #ecommerceseo #seotips #googlesearch

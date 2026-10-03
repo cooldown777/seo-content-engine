@@ -13,3 +13,5 @@ Format: YYYY-MM-DD | REEL/CAROUSEL | pillar (1–8) | angle | keyword
 - 2026-10-01 | CAROUSEL | 8 | 5 SEO tasks to try with Claude Sonnet 5.5 (low-CTR pages, titles, meta descriptions, internal links, JSON-LD) | AUDIT
 - 2026-10-02 | REEL | 2 | Your best SEO page might have zero links – 3-step Search Console Links report check | AUDIT
 - 2026-10-02 | CAROUSEL | 2 | 5 internal-link SEO checks (few-link pages, href links, anchor text, links in context, no chained links) | AUDIT
+- 2026-10-03 | REEL | 6 | New Search Console "Web: multimodal" filter (Lens, Circle to Search) – 3-step photo-search SEO check | AUDIT
+- 2026-10-03 | CAROUSEL | 6 | 5 photo-search SEO checks (multimodal filter, Generative AI report, alt text, img tags, filenames + context) | AUDIT

@@ -1,0 +1,71 @@
+{
+  "slides": [
+    {
+      "type": "checkHook",
+      "eyebrow": ["NEW IN SEARCH CONSOLE", "SEO CHECKLIST"],
+      "title": "5 SEO<br>checks for<br>photo search",
+      "accentLine": "Search Console now shows traffic from Lens and Circle to Search."
+    },
+    {
+      "type": "checkItem", "n": 1, "total": 5,
+      "title": "Open the new",
+      "titleAccent": "photo filter",
+      "body": "Since Sept 24, 2026, Search Console counts searches made with Lens, Circle to Search and image uploads.",
+      "action": "Performance → Search type → Web: multimodal. Then open the Pages tab.",
+      "example": "A shoe page found when someone uses Lens on a shoe they like."
+    },
+    {
+      "type": "checkItem", "n": 2, "total": 5,
+      "title": "Check the",
+      "titleAccent": "AI report too",
+      "body": "The same filter works in the Generative AI performance report for Google Search.",
+      "action": "Open the Generative AI report and set the search type to Web: multimodal.",
+      "example": "Compare text-based and multimodal impressions for one product page."
+    },
+    {
+      "type": "checkItem", "n": 3, "total": 5,
+      "title": "Write useful",
+      "titleAccent": "alt text",
+      "body": "Google calls alt text the most important image metadata and uses it with computer vision.",
+      "action": "Describe what is in the photo in a few specific words. No keyword lists.",
+      "example": "“image1” becomes “black leather ankle boot, side view”."
+    },
+    {
+      "type": "checkItem", "n": 4, "total": 5,
+      "title": "Use real",
+      "titleAccent": "image tags",
+      "body": "Google finds images in the src of an img element. It says it doesn't index CSS images.",
+      "action": "Check that key product photos are img tags, not only CSS backgrounds.",
+      "example": "A hero photo set as a CSS background-image on a category page."
+    },
+    {
+      "type": "checkItem", "n": 5, "total": 5,
+      "title": "Name files,",
+      "titleAccent": "add context",
+      "body": "Google reads captions and nearby text. Filenames give it very light clues.",
+      "action": "Rename key photos descriptively and place them near relevant text.",
+      "example": "IMG00023.JPG becomes black-ankle-boot.jpg, next to the size guide."
+    },
+    {
+      "type": "checkSummary",
+      "eyebrow": "PHOTO SEARCH",
+      "title": "Five checks,",
+      "titleAccent": "one afternoon.",
+      "items": [
+        "Filter: Web: multimodal",
+        "Check the Generative AI report",
+        "Specific alt text, no stuffing",
+        "img tags, not CSS images",
+        "Descriptive filenames + context"
+      ],
+      "seed": "An AI can draft alt text from your product names."
+    },
+    {
+      "type": "darkCTA",
+      "eyebrow": "BEFORE YOU GO",
+      "keyword": "AUDIT",
+      "body": "and I’ll send you a free SEO audit of your site.",
+      "sub": "Daily SEO and AI search tips."
+    }
+  ]
+}

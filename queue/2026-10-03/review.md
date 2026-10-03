@@ -1,0 +1,13 @@
+- **Topic:** New Search Console filter "Web: multimodal" (photo search) – 3-step check (reel) + 5 checks (carousel)
+- **Pillar:** 6 – Myths & change (least recently used, last before 2026-09-30)
+- **Why today:** Google added multimodal reporting to Search Console on Sep 24, 2026 (Search Central post)
+- **Keyword:** AUDIT → "a free SEO audit of your site" (reel + carousel)
+- **AI radar:** skipped – weekly limit (2/2 used on 2026-10-01, Sonnet 5.5)
+- **AI radar seen:** anthropic.com: no new model since Sonnet 5.5 (Oct 2 = training investment news)
+- **AI radar seen:** "Gemini 4 Argon" (Oct 1) only in a newsletter, not checked on blog.google – not used
+- **SEO news:** Sept 2026 spam update (Sep 24) still open on Status Dashboard; SER reports 2nd wave Sep 30
+- **SEO news:** Google helpful-content doc updated (SER, Oct 2) – possible future angle, not verified yet
+- **Video:** BrainrotShorts project cmurvab380019jy04fnw2pry4, 48.8 s VO, 1,500 credits (see reel/render.md)
+- **Script:** written in-house (no script_generate), every claim from Google docs
+- **Uncertain:** Data only appears for sites that already get photo-search traffic; many small sites may see none
+- **Uncertain:** research/accounts/ still empty (no creator scans, no patterns.md)
