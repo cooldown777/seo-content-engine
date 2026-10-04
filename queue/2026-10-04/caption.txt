@@ -1,0 +1,13 @@
+Comment AUDIT and I'll send you a free SEO audit of your site.
+
+Slide 1 is the overview. Then one SEO check per slide for AI-written pages, each with an action and an example.
+
+On October 1, 2026, Google updated its guidance on AI-generated content. It now says it is "critical" to manually fact-check and review all AI-generated content for accuracy and trustworthiness before publishing.
+
+The review is not only for the body text. Google names title elements, meta descriptions, structured data and image alt text, because all of them can appear in search results. That is where AI drafts often slip in a price, a rating or a promise the page doesn't back up.
+
+Why it matters: Google says AI output can contain inaccuracies, also known as hallucinations. And its spam policy says that generating many pages with AI without adding value for users can count as scaled content abuse.
+
+So use AI to draft, then check every claim, every snippet and every page's reason to exist. Save this for your next publishing day.
+
+#seo #aicontent #googleseo #contentmarketing #seotips #technicalseo #aiseo

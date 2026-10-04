@@ -1,0 +1,14 @@
+- **Topic:** Google's AI content guidance update (Oct 1) – 3-step pre-publish check (reel) + 5 checks (carousel)
+- **Pillar:** 1 – Content volume (least recently used, last before 2026-09-30)
+- **Why today:** Google doc now says it's "critical" to fact-check AI content incl. titles, meta, schema, alt
+- **Keyword:** AUDIT → "a free SEO audit of your site" (reel + carousel)
+- **AI radar:** skipped – weekly limit (2/2 used on 2026-10-01, Sonnet 5.5)
+- **AI radar seen:** anthropic.com: no new model since Sonnet 5.5 (Oct 1 Barclays, Oct 2 training news)
+- **AI radar seen:** OpenAI DevDay 2026 (GPT-6.1 Sol, cloud Codex) – only secondary sources, openai.com 403
+- **AI radar seen:** perplexity.ai/hub + blog.google not readable (403 / no list) – nothing verified
+- **SEO news:** Sept 2026 spam update still rolling out (started Sep 24, phase 2 on Sep 30 per SER)
+- **SEO news:** helpful-content doc got new main-content sections (SER Oct 2) – possible future angle
+- **Video:** see reel/render.md
+- **Script:** written in-house (no script_generate), every claim from Google docs
+- **Uncertain:** SER calls the "critical" wording new; Google's page only shows "last updated 2026-10-01"
+- **Uncertain:** research/accounts/ still empty (no creator scans, no patterns.md)

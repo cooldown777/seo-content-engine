@@ -15,3 +15,5 @@ Format: YYYY-MM-DD | REEL/CAROUSEL | pillar (1–8) | angle | keyword
 - 2026-10-02 | CAROUSEL | 2 | 5 internal-link SEO checks (few-link pages, href links, anchor text, links in context, no chained links) | AUDIT
 - 2026-10-03 | REEL | 6 | New Search Console "Web: multimodal" filter (Lens, Circle to Search) – 3-step photo-search SEO check | AUDIT
 - 2026-10-03 | CAROUSEL | 6 | 5 photo-search SEO checks (multimodal filter, Generative AI report, alt text, img tags, filenames + context) | AUDIT
+- 2026-10-04 | REEL | 1 | Google's Oct 1 AI-content guidance ("critical" to fact-check) – 3-step pre-publish check | AUDIT
+- 2026-10-04 | CAROUSEL | 1 | 5 SEO checks for AI content (facts, titles, meta descriptions, schema + alt text, value not volume) | AUDIT

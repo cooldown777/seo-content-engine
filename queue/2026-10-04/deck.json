@@ -1,0 +1,71 @@
+{
+  "slides": [
+    {
+      "type": "checkHook",
+      "eyebrow": ["GOOGLE UPDATE · OCT 1", "SEO CHECKLIST"],
+      "title": "5 SEO<br>checks for<br>AI content",
+      "accentLine": "Google now calls it critical to fact-check AI content before publishing."
+    },
+    {
+      "type": "checkItem", "n": 1, "total": 5,
+      "title": "Fact-check",
+      "titleAccent": "every claim",
+      "body": "Google says AI output can contain inaccuracies, also known as hallucinations.",
+      "action": "Check every name, number and date against a source before you publish.",
+      "example": "An AI draft says a feature launched in 2024. The source says 2025."
+    },
+    {
+      "type": "checkItem", "n": 2, "total": 5,
+      "title": "Review your",
+      "titleAccent": "title tags",
+      "body": "Google's review rule covers title elements too, because they can appear in search results.",
+      "action": "Read each AI-written title. Does it promise what the page delivers?",
+      "example": "“Best prices in town” on a page without a single price."
+    },
+    {
+      "type": "checkItem", "n": 3, "total": 5,
+      "title": "Check meta",
+      "titleAccent": "descriptions",
+      "body": "Meta descriptions are named in Google's update. They can show up as your search snippet.",
+      "action": "Compare each AI description with the page and fix anything it invents.",
+      "example": "“Free shipping worldwide” when the store only ships to 3 countries."
+    },
+    {
+      "type": "checkItem", "n": 4, "total": 5,
+      "title": "Verify",
+      "titleAccent": "data + alt text",
+      "body": "Structured data and image alt text are on Google's review list as well.",
+      "action": "Match schema prices, ratings and dates to the page. Read the alt text.",
+      "example": "JSON-LD says 4.9 stars, but the page shows no reviews at all."
+    },
+    {
+      "type": "checkItem", "n": 5, "total": 5,
+      "title": "Add value,",
+      "titleAccent": "not volume",
+      "body": "Google's spam policy: many AI pages without added value can be scaled content abuse.",
+      "action": "Before you publish, add something only you know: photos, data, experience.",
+      "example": "100 near-identical city pages vs. 10 with real local details."
+    },
+    {
+      "type": "checkSummary",
+      "eyebrow": "AI CONTENT",
+      "title": "Five checks,",
+      "titleAccent": "every page.",
+      "items": [
+        "Fact-check names, numbers, dates",
+        "Titles match the page",
+        "Descriptions invent nothing",
+        "Schema + alt text are true",
+        "Add value, not volume"
+      ],
+      "seed": "An AI can draft it. A human should check it."
+    },
+    {
+      "type": "darkCTA",
+      "eyebrow": "BEFORE YOU GO",
+      "keyword": "AUDIT",
+      "body": "and I’ll send you a free SEO audit of your site.",
+      "sub": "Daily SEO and AI search tips."
+    }
+  ]
+}
