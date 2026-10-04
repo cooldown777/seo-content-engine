@@ -8,7 +8,7 @@
 - **AI radar seen:** perplexity.ai/hub + blog.google not readable (403 / no list) – nothing verified
 - **SEO news:** Sept 2026 spam update still rolling out (started Sep 24, phase 2 on Sep 30 per SER)
 - **SEO news:** helpful-content doc got new main-content sections (SER Oct 2) – possible future angle
-- **Video:** see reel/render.md
+- **Video:** BrainrotShorts project cmutapj6d001pl304vjyzzp0y, 47.1 s VO, 1,500 credits (see reel/render.md)
 - **Script:** written in-house (no script_generate), every claim from Google docs
 - **Uncertain:** SER calls the "critical" wording new; Google's page only shows "last updated 2026-10-01"
 - **Uncertain:** research/accounts/ still empty (no creator scans, no patterns.md)
